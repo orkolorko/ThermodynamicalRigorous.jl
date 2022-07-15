@@ -6,7 +6,7 @@ export difference
 """
     difference(T, x)
 
-Compute the value of the function ``(T(x_n)-x₁, T(x_{n-1})-x_n, ..., T(x_1)-x_2)```
+Compute the value of the function ``(T(x_n)-x₁, T(x_{n-1})-x_n, ..., T(x_1)-x_2)``
  a zero of this function is a periodic orbit of period `n` for the dynamic T
 
 # Examples
@@ -32,5 +32,10 @@ function difference(T, x)
     end
     a
 end
+
+
+
+
+
 
 end

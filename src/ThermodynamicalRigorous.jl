@@ -1,5 +1,8 @@
 module ThermodynamicalRigorous
 
+# This makes the function difference visible when you use the module
+export difference
+
 """
     difference(T, x)
 
